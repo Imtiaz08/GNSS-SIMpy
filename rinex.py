@@ -7,16 +7,15 @@ NaviFile = "base.23N"
 
 def read_nav(nav):    
     
-    # Initializing all Variables 
-    IONALPHA = []; IONBETA = []; DELTA_UTC = []
-    PRN = []; Epoch = []; a_f0 = []; a_f1 = []; a_f2 = []
-    IODE = []; Crs = []; Delta_n = []; Mo = []
-    Cuc = []; Eccentricity = []; Cus = []; sqrt_A = []
-    TOE = []; Cic = []; OMEGA = []; CIS = []
-    Io = []; Crc = []; Omega = []; OMEGA_dot = []
-    IDOT = []; L2_codes_chan = []; GNSS_week = []; L2P_DataFlag = []
-    SV_Accuracy = []; SV_Health = []; TGD = []; IODC = []
-    TransTime = []; FitInterval = []
+    IONALPHA, IONBETA, DELTA_UTC = [], [], []
+    PRN, Epoch, a_f0, a_f1, a_f2 = [], [], [], [], []
+    IODE, Crs, Delta_n, Mo = [], [], [], []
+    Cuc, Eccentricity, Cus, sqrt_A = [], [], [], []
+    TOE, Cic, OMEGA, CIS = [], [], [], []
+    Io, Crc, Omega, OMEGA_dot = [], [], [], []
+    IDOT, L2_codes_chan, GNSS_week, L2P_DataFlag = [], [], [], []
+    SV_Accuracy, SV_Health, TGD, IODC = [], [], [], []
+    TransTime, FitInterval = [], []
 
     headlines_counter = 0
 
